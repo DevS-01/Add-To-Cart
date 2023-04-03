@@ -34,8 +34,13 @@ function App() {
   useEffect(() => {
     onValue(shoppingList, function(snapshot){
       if(snapshot.exists()){
+        setList([])
         let shoppingItems = Object.entries(snapshot.val())
         setList(shoppingItems)    
+      }
+
+      else{
+        setList([])
       }
     })
   },[])
