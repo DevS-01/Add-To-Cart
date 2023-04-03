@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Cat } from "./index.js"
+import Cat from './assets/cat.png'
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
 import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 import { useEffect } from "react"
