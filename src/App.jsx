@@ -70,6 +70,8 @@ function App() {
       <ul>
         {list.map(item => addItems(item))}
       </ul>
+
+      {list.length ? null : <p className="display-msg">No items here...yet</p>}
     </div>
   )
 }

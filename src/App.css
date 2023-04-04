@@ -84,3 +84,9 @@ ul li:hover,
 ul li:focus{
     background-color: rgb(241,232,220);;
 }
+
+.display-msg{
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.5em;
+}
